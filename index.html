@@ -14,8 +14,8 @@
   <script src="https://cdn.sheetjs.com/xlsx-0.20.2/package/dist/xlsx.full.min.js"></script>
   <!-- Firebase SDK -->
   <script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-app.js";
-    import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query, orderBy } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-firestore.js";
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+    import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query, orderBy } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-firestore.js";
     window.firebaseApp = { initializeApp, getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query, orderBy };
   </script>
   <style>
@@ -128,6 +128,7 @@
 
 <script type="module">
   // -------------------- Firebase Config --------------------
+  
   const firebaseConfig = {
       apiKey: "AIzaSyAZFtWMZ6KRBs20dGVg7ceCGww5oz0RxWo",
       authDomain: "result-exam.firebaseapp.com",
